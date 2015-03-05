@@ -111,13 +111,13 @@
                                 <color key="textColor" red="0.95776120580000002" green="0.95776120580000002" blue="0.95776120580000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="OU" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kob-fU-0xu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="OU" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kob-fU-0xu">
                                 <rect key="frame" x="288" y="521" width="24" height="20"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="zRv-05-RwT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="zRv-05-RwT">
                                 <rect key="frame" x="185" y="530" width="98" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="D5P-aC-YLx"/>
@@ -139,7 +139,7 @@
                                     </mask>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybV-D4-bHE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybV-D4-bHE">
                                 <rect key="frame" x="317" y="530" width="98" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="rC7-6S-zMY"/>
@@ -149,6 +149,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="min-yo-U12" firstAttribute="height" secondItem="LaU-Dc-Snd" secondAttribute="height" multiplier="1.2" id="0Hd-3t-bO9"/>
+                            <constraint firstItem="LaU-Dc-Snd" firstAttribute="top" secondItem="bpN-SQ-9BW" secondAttribute="bottom" constant="92" id="1L3-uH-AR5"/>
                             <constraint firstItem="min-yo-U12" firstAttribute="top" secondItem="ZFs-ci-sRh" secondAttribute="bottom" constant="-224" id="2No-hg-O0v"/>
                             <constraint firstAttribute="trailingMargin" secondItem="riG-Ec-zdS" secondAttribute="trailing" constant="-20" id="4nA-Hz-gPY"/>
                             <constraint firstItem="riG-Ec-zdS" firstAttribute="centerY" secondItem="u9k-Pj-LTw" secondAttribute="centerY" constant="7" id="5Ad-iP-6cV"/>
@@ -220,6 +221,7 @@
                                 <exclude reference="XT1-bu-SpP"/>
                                 <exclude reference="fJC-Ea-hiT"/>
                                 <exclude reference="l4f-FL-qC1"/>
+                                <exclude reference="tU0-LG-2mH"/>
                             </mask>
                         </variation>
                     </view>
