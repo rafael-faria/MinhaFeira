@@ -607,7 +607,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="JOt-xu-ze3" secondAttribute="trailing" constant="-16" id="2i2-cp-Mkj"/>
-                            <constraint firstItem="UUK-Yi-711" firstAttribute="centerY" secondItem="JOt-xu-ze3" secondAttribute="centerY" id="62m-7Q-gmc"/>
+                            <constraint firstItem="UUK-Yi-711" firstAttribute="centerY" secondItem="JOt-xu-ze3" secondAttribute="centerY" constant="-75" id="62m-7Q-gmc"/>
                             <constraint firstItem="BZJ-bm-pWv" firstAttribute="top" secondItem="M2s-Lh-Djc" secondAttribute="bottom" id="DAF-3a-XFI"/>
                             <constraint firstItem="KOc-aA-f9g" firstAttribute="leading" secondItem="o2C-je-By0" secondAttribute="leadingMargin" constant="-16" id="FvZ-pN-ZQy"/>
                             <constraint firstItem="JOt-xu-ze3" firstAttribute="leading" secondItem="o2C-je-By0" secondAttribute="leadingMargin" constant="-16" id="H1T-gp-T9R"/>
@@ -789,7 +789,7 @@
                             <constraint firstItem="piy-K1-CYy" firstAttribute="width" secondItem="1YY-dP-4NK" secondAttribute="width" multiplier="0.27" id="2VB-WP-Zg9"/>
                             <constraint firstItem="LkR-Bx-VAl" firstAttribute="leading" secondItem="1YY-dP-4NK" secondAttribute="leadingMargin" constant="-16" id="B0F-hq-ea5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="piy-K1-CYy" secondAttribute="trailing" constant="-16" id="Cn2-c7-MJq"/>
-                            <constraint firstItem="LkR-Bx-VAl" firstAttribute="centerY" secondItem="Qs9-Ot-Kka" secondAttribute="centerY" id="Rc3-6n-SCg"/>
+                            <constraint firstItem="LkR-Bx-VAl" firstAttribute="centerY" secondItem="Qs9-Ot-Kka" secondAttribute="centerY" constant="75" id="Rc3-6n-SCg"/>
                             <constraint firstItem="LkR-Bx-VAl" firstAttribute="top" secondItem="YA5-vY-OZO" secondAttribute="bottom" constant="-20" id="ScD-Ho-hsJ"/>
                             <constraint firstItem="piy-K1-CYy" firstAttribute="height" secondItem="1YY-dP-4NK" secondAttribute="height" multiplier="0.15" id="Vzm-Ef-0Gz"/>
                             <constraint firstItem="PYB-dX-pLe" firstAttribute="top" secondItem="LkR-Bx-VAl" secondAttribute="bottom" id="Ygt-jh-TXD"/>
