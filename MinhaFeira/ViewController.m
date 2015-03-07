@@ -13,6 +13,9 @@
 @end
 
 @implementation ViewController
+- (IBAction)Entra:(id)sender {
+    [self dismissViewControllerAnimated:NO completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
