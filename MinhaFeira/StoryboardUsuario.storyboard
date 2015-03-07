@@ -632,6 +632,9 @@
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ppr-cr-0x4" kind="presentation" modalTransitionStyle="crossDissolve" id="eZW-xs-Sza"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W24-iu-cJV">
                                         <rect key="frame" x="0.0" y="260" width="526" height="84"/>
@@ -639,6 +642,9 @@
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="eud-r1-anL" kind="presentation" modalTransitionStyle="crossDissolve" id="0Rs-7c-RgF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYD-rw-W3h">
                                         <rect key="frame" x="0.0" y="344" width="526" height="76"/>
@@ -952,11 +958,177 @@
             </objects>
             <point key="canvasLocation" x="2463" y="216"/>
         </scene>
+        <!--Criar uma Lista-->
+        <scene sceneID="Pif-vF-KAu">
+            <objects>
+                <viewController title="Criar uma Lista" id="ppr-cr-0x4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O4u-pe-EQM"/>
+                        <viewControllerLayoutGuide type="bottom" id="OuK-aR-6f3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AN0-vf-dpb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Criar Lista.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Ps-xz-zrl">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5t-8P-uPU">
+                                <rect key="frame" x="0.0" y="510" width="162" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smu-OH-dmj">
+                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Configurar">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yOX-zX-ZMu" kind="presentation" modalTransitionStyle="crossDissolve" id="Vbv-pT-6Ju"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="smu-OH-dmj" secondAttribute="centerY" id="HQs-vJ-mmd"/>
+                                    <constraint firstAttribute="centerX" secondItem="smu-OH-dmj" secondAttribute="centerX" id="a34-ex-6sJ"/>
+                                    <constraint firstAttribute="height" secondItem="smu-OH-dmj" secondAttribute="height" multiplier="1.5" id="j2E-ft-E8m"/>
+                                    <constraint firstAttribute="width" secondItem="smu-OH-dmj" secondAttribute="width" multiplier="1.5" id="kSr-42-pyA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60U-rp-knM">
+                                <rect key="frame" x="438" y="510" width="162" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ge-FJ-j8b">
+                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Compras">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="gSe-uF-ibg" kind="presentation" modalTransitionStyle="crossDissolve" id="U4S-wP-bZO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" secondItem="6ge-FJ-j8b" secondAttribute="height" multiplier="1.5" id="BjI-23-KAz"/>
+                                    <constraint firstAttribute="centerX" secondItem="6ge-FJ-j8b" secondAttribute="centerX" id="Qhw-s8-hed"/>
+                                    <constraint firstAttribute="width" secondItem="6ge-FJ-j8b" secondAttribute="width" multiplier="1.5" id="UiL-Ok-0yK"/>
+                                    <constraint firstAttribute="centerY" secondItem="6ge-FJ-j8b" secondAttribute="centerY" id="apO-da-qxf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Ps-xz-zrl" firstAttribute="leading" secondItem="AN0-vf-dpb" secondAttribute="leadingMargin" constant="-16" id="8pK-f8-h6m"/>
+                            <constraint firstItem="60U-rp-knM" firstAttribute="height" secondItem="AN0-vf-dpb" secondAttribute="height" multiplier="0.15" id="9Dg-xY-3Z0"/>
+                            <constraint firstItem="OuK-aR-6f3" firstAttribute="top" secondItem="F5t-8P-uPU" secondAttribute="bottom" id="DsX-a2-Ydp"/>
+                            <constraint firstItem="F5t-8P-uPU" firstAttribute="leading" secondItem="AN0-vf-dpb" secondAttribute="leadingMargin" constant="-16" id="P3z-2N-iTQ"/>
+                            <constraint firstItem="60U-rp-knM" firstAttribute="width" secondItem="AN0-vf-dpb" secondAttribute="width" multiplier="0.27" id="Re8-Hl-QZ3"/>
+                            <constraint firstItem="F5t-8P-uPU" firstAttribute="width" secondItem="AN0-vf-dpb" secondAttribute="width" multiplier="0.27" id="WVh-1V-5fs"/>
+                            <constraint firstItem="OuK-aR-6f3" firstAttribute="top" secondItem="5Ps-xz-zrl" secondAttribute="bottom" id="bpp-5o-9JS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="60U-rp-knM" secondAttribute="trailing" constant="-16" id="gKC-4H-8Zh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Ps-xz-zrl" secondAttribute="trailing" constant="-16" id="gTu-TF-72Y"/>
+                            <constraint firstItem="OuK-aR-6f3" firstAttribute="top" secondItem="60U-rp-knM" secondAttribute="bottom" id="rn7-EB-cS3"/>
+                            <constraint firstItem="F5t-8P-uPU" firstAttribute="height" secondItem="AN0-vf-dpb" secondAttribute="height" multiplier="0.15" id="ut5-7N-s1S"/>
+                            <constraint firstItem="5Ps-xz-zrl" firstAttribute="top" secondItem="O4u-pe-EQM" secondAttribute="bottom" constant="-20" id="w2Z-t2-ROf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXB-FL-ztF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2463" y="900"/>
+        </scene>
+        <!--Feirantes Favoritos-->
+        <scene sceneID="By1-kx-PH0">
+            <objects>
+                <viewController title="Feirantes Favoritos" id="eud-r1-anL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Onl-6N-SRJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="mLS-6Q-X3a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iWd-0q-9LQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Feirantes Favoritos.png" translatesAutoresizingMaskIntoConstraints="NO" id="t6p-fH-bA6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CGq-KL-9hP">
+                                <rect key="frame" x="0.0" y="510" width="162" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2A-gq-VB8">
+                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Configurar">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yOX-zX-ZMu" kind="presentation" modalTransitionStyle="crossDissolve" id="nsl-w8-dE7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerY" secondItem="H2A-gq-VB8" secondAttribute="centerY" id="0AV-kY-GIt"/>
+                                    <constraint firstAttribute="height" secondItem="H2A-gq-VB8" secondAttribute="height" multiplier="1.5" id="P6U-Xr-uyY"/>
+                                    <constraint firstAttribute="centerX" secondItem="H2A-gq-VB8" secondAttribute="centerX" id="n3t-Tg-Kyr"/>
+                                    <constraint firstAttribute="width" secondItem="H2A-gq-VB8" secondAttribute="width" multiplier="1.5" id="pcI-Hv-lL4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZdI-CH-V13">
+                                <rect key="frame" x="438" y="510" width="162" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ner-zZ-qp9">
+                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Compras">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="gSe-uF-ibg" kind="presentation" modalTransitionStyle="crossDissolve" id="To8-3h-YCb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="Ner-zZ-qp9" secondAttribute="centerX" id="aDj-HT-S1v"/>
+                                    <constraint firstAttribute="centerY" secondItem="Ner-zZ-qp9" secondAttribute="centerY" id="gWk-wv-pLx"/>
+                                    <constraint firstAttribute="width" secondItem="Ner-zZ-qp9" secondAttribute="width" multiplier="1.5" id="k50-O1-ZLB"/>
+                                    <constraint firstAttribute="height" secondItem="Ner-zZ-qp9" secondAttribute="height" multiplier="1.5" id="r2G-gc-gfb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t6p-fH-bA6" firstAttribute="top" secondItem="Onl-6N-SRJ" secondAttribute="bottom" constant="-20" id="Ehi-Gn-PmU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t6p-fH-bA6" secondAttribute="trailing" constant="-16" id="FBZ-nw-UlV"/>
+                            <constraint firstItem="mLS-6Q-X3a" firstAttribute="top" secondItem="CGq-KL-9hP" secondAttribute="bottom" id="I8r-h4-vqo"/>
+                            <constraint firstItem="CGq-KL-9hP" firstAttribute="width" secondItem="iWd-0q-9LQ" secondAttribute="width" multiplier="0.27" id="RM9-FM-KSO"/>
+                            <constraint firstItem="mLS-6Q-X3a" firstAttribute="top" secondItem="ZdI-CH-V13" secondAttribute="bottom" id="Vm3-Zg-5Hm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZdI-CH-V13" secondAttribute="trailing" constant="-16" id="VmD-AS-nDc"/>
+                            <constraint firstItem="ZdI-CH-V13" firstAttribute="height" secondItem="iWd-0q-9LQ" secondAttribute="height" multiplier="0.15" id="Y3O-C0-suW"/>
+                            <constraint firstItem="CGq-KL-9hP" firstAttribute="leading" secondItem="iWd-0q-9LQ" secondAttribute="leadingMargin" constant="-16" id="aM4-se-UZw"/>
+                            <constraint firstItem="CGq-KL-9hP" firstAttribute="height" secondItem="iWd-0q-9LQ" secondAttribute="height" multiplier="0.15" id="e9N-Y5-8hq"/>
+                            <constraint firstItem="mLS-6Q-X3a" firstAttribute="top" secondItem="t6p-fH-bA6" secondAttribute="bottom" id="heb-dG-17g"/>
+                            <constraint firstItem="ZdI-CH-V13" firstAttribute="width" secondItem="iWd-0q-9LQ" secondAttribute="width" multiplier="0.27" id="uc8-8m-0YE"/>
+                            <constraint firstItem="t6p-fH-bA6" firstAttribute="leading" secondItem="iWd-0q-9LQ" secondAttribute="leadingMargin" constant="-16" id="zC9-G9-Lnu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8v-C0-xoP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2463" y="1678"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo.png" width="638" height="300"/>
         <image name="Telas Boas Vindas - Cliente.png" width="750" height="1334"/>
         <image name="Telas Cliente Compra.png" width="750" height="1334"/>
+        <image name="Telas Criar Lista.png" width="750" height="1334"/>
+        <image name="Telas Feirantes Favoritos.png" width="750" height="1334"/>
         <image name="Telas Inicial Cliente.png" width="750" height="1334"/>
         <image name="Telas Procurar Feirante.png" width="750" height="1334"/>
         <image name="Telas Procurar Produto.png" width="750" height="1334"/>
@@ -968,8 +1140,8 @@
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MKO-jq-PrG"/>
-        <segue reference="mHL-1m-njL"/>
-        <segue reference="QG9-Jl-IKF"/>
+        <segue reference="To8-3h-YCb"/>
+        <segue reference="nsl-w8-dE7"/>
+        <segue reference="pPQ-Dy-Ugx"/>
     </inferredMetricsTieBreakers>
 </document>
