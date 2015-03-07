@@ -17,6 +17,7 @@
 		CF775A731AAB655C00C53713 /* Telas Procurar Feirante.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A721AAB655C00C53713 /* Telas Procurar Feirante.png */; };
 		CF775A751AAB68B600C53713 /* Telas Procurar Produto.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A741AAB68B600C53713 /* Telas Procurar Produto.png */; };
 		CF775A771AAB6AF200C53713 /* Telas Criar Lista.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A761AAB6AF200C53713 /* Telas Criar Lista.png */; };
+		CF775A791AAB6C3C00C53713 /* Telas Feirantes Favoritos.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A781AAB6C3C00C53713 /* Telas Feirantes Favoritos.png */; };
 		E35D12851AA7BF8500A646F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12841AA7BF8500A646F4 /* main.m */; };
 		E35D12881AA7BF8500A646F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12871AA7BF8500A646F4 /* AppDelegate.m */; };
 		E35D128B1AA7BF8500A646F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D128A1AA7BF8500A646F4 /* ViewController.m */; };
@@ -61,6 +62,7 @@
 		CF775A721AAB655C00C53713 /* Telas Procurar Feirante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Procurar Feirante.png"; sourceTree = "<group>"; };
 		CF775A741AAB68B600C53713 /* Telas Procurar Produto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Procurar Produto.png"; sourceTree = "<group>"; };
 		CF775A761AAB6AF200C53713 /* Telas Criar Lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Criar Lista.png"; sourceTree = "<group>"; };
+		CF775A781AAB6C3C00C53713 /* Telas Feirantes Favoritos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirantes Favoritos.png"; sourceTree = "<group>"; };
 		E35D127F1AA7BF8500A646F4 /* MinhaFeira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhaFeira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35D12831AA7BF8500A646F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35D12841AA7BF8500A646F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		E35D12AA1AA7C28A00A646F4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CF775A781AAB6C3C00C53713 /* Telas Feirantes Favoritos.png */,
 				CF775A761AAB6AF200C53713 /* Telas Criar Lista.png */,
 				CF775A741AAB68B600C53713 /* Telas Procurar Produto.png */,
 				CF775A721AAB655C00C53713 /* Telas Procurar Feirante.png */,
@@ -288,6 +291,7 @@
 				E35D12B21AA7CD0100A646F4 /* Logo.png in Resources */,
 				CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */,
 				CF775A711AAB411100C53713 /* Telas Cliente Compra.png in Resources */,
+				CF775A791AAB6C3C00C53713 /* Telas Feirantes Favoritos.png in Resources */,
 				CF775A731AAB655C00C53713 /* Telas Procurar Feirante.png in Resources */,
 				E35D12C21AA920E000A646F4 /* triangulo.png in Resources */,
 				CF775A751AAB68B600C53713 /* Telas Procurar Produto.png in Resources */,
