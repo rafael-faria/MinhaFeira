@@ -622,6 +622,9 @@
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="OZZ-dh-eWv" kind="presentation" modalTransitionStyle="crossDissolve" id="0kR-bb-jlp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHG-VT-3yi">
                                         <rect key="frame" x="0.0" y="168" width="526" height="92"/>
@@ -867,6 +870,88 @@
             </objects>
             <point key="canvasLocation" x="2463" y="-458"/>
         </scene>
+        <!--Procurar Produto-->
+        <scene sceneID="uaF-em-815">
+            <objects>
+                <viewController title="Procurar Produto" id="OZZ-dh-eWv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sfd-9f-saX"/>
+                        <viewControllerLayoutGuide type="bottom" id="8RC-B3-alC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1gF-MQ-3Gk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Procurar Produto.png" translatesAutoresizingMaskIntoConstraints="NO" id="I6a-pA-rYd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfQ-8i-B4t">
+                                <rect key="frame" x="0.0" y="510" width="162" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qc-xu-JMg">
+                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Configurar">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yOX-zX-ZMu" kind="presentation" modalTransitionStyle="crossDissolve" id="mHL-1m-njL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" secondItem="6qc-xu-JMg" secondAttribute="height" multiplier="1.5" id="MbX-zn-CT0"/>
+                                    <constraint firstAttribute="centerY" secondItem="6qc-xu-JMg" secondAttribute="centerY" id="X3j-H0-3kB"/>
+                                    <constraint firstAttribute="width" secondItem="6qc-xu-JMg" secondAttribute="width" multiplier="1.5" id="ZFp-pf-FAx"/>
+                                    <constraint firstAttribute="centerX" secondItem="6qc-xu-JMg" secondAttribute="centerX" id="dqG-Xy-KLY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGh-S9-MUw">
+                                <rect key="frame" x="438" y="510" width="162" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVV-ZN-p47">
+                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Compras">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="gSe-uF-ibg" kind="presentation" modalTransitionStyle="crossDissolve" id="MKO-jq-PrG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VVV-ZN-p47" secondAttribute="width" multiplier="1.5" id="FW1-zu-cWf"/>
+                                    <constraint firstAttribute="height" secondItem="VVV-ZN-p47" secondAttribute="height" multiplier="1.5" id="SFy-9c-g3d"/>
+                                    <constraint firstAttribute="centerX" secondItem="VVV-ZN-p47" secondAttribute="centerX" id="mkR-yf-bGy"/>
+                                    <constraint firstAttribute="centerY" secondItem="VVV-ZN-p47" secondAttribute="centerY" id="yB8-Mc-oYp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dfQ-8i-B4t" firstAttribute="height" secondItem="1gF-MQ-3Gk" secondAttribute="height" multiplier="0.15" id="5Nl-Gh-oLh"/>
+                            <constraint firstItem="8RC-B3-alC" firstAttribute="top" secondItem="I6a-pA-rYd" secondAttribute="bottom" id="7YU-iq-mYn"/>
+                            <constraint firstItem="8RC-B3-alC" firstAttribute="top" secondItem="FGh-S9-MUw" secondAttribute="bottom" id="8rO-tO-1yq"/>
+                            <constraint firstItem="I6a-pA-rYd" firstAttribute="leading" secondItem="1gF-MQ-3Gk" secondAttribute="leadingMargin" constant="-16" id="EDq-mP-Vxm"/>
+                            <constraint firstItem="FGh-S9-MUw" firstAttribute="height" secondItem="1gF-MQ-3Gk" secondAttribute="height" multiplier="0.15" id="Gbd-QX-0S7"/>
+                            <constraint firstItem="dfQ-8i-B4t" firstAttribute="leading" secondItem="1gF-MQ-3Gk" secondAttribute="leadingMargin" constant="-16" id="MtA-UA-SHT"/>
+                            <constraint firstItem="dfQ-8i-B4t" firstAttribute="width" secondItem="1gF-MQ-3Gk" secondAttribute="width" multiplier="0.27" id="RGb-QW-fGv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FGh-S9-MUw" secondAttribute="trailing" constant="-16" id="g0e-jw-0n5"/>
+                            <constraint firstItem="FGh-S9-MUw" firstAttribute="width" secondItem="1gF-MQ-3Gk" secondAttribute="width" multiplier="0.27" id="k9V-ly-1z4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I6a-pA-rYd" secondAttribute="trailing" constant="-16" id="pL0-aM-jwn"/>
+                            <constraint firstItem="I6a-pA-rYd" firstAttribute="top" secondItem="Sfd-9f-saX" secondAttribute="bottom" constant="-20" id="qKb-WL-xBb"/>
+                            <constraint firstItem="8RC-B3-alC" firstAttribute="top" secondItem="dfQ-8i-B4t" secondAttribute="bottom" id="ydC-iZ-5Zv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WmI-lu-lJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2463" y="216"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo.png" width="638" height="300"/>
@@ -874,6 +959,7 @@
         <image name="Telas Cliente Compra.png" width="750" height="1334"/>
         <image name="Telas Inicial Cliente.png" width="750" height="1334"/>
         <image name="Telas Procurar Feirante.png" width="750" height="1334"/>
+        <image name="Telas Procurar Produto.png" width="750" height="1334"/>
         <image name="backgroundimage.png" width="1000" height="1000"/>
         <image name="botao.png" width="452" height="86"/>
         <image name="face.png" width="452" height="74"/>
@@ -882,8 +968,8 @@
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="pPQ-Dy-Ugx"/>
-        <segue reference="y8n-0Y-6kA"/>
-        <segue reference="v3t-ep-aur"/>
+        <segue reference="MKO-jq-PrG"/>
+        <segue reference="mHL-1m-njL"/>
+        <segue reference="QG9-Jl-IKF"/>
     </inferredMetricsTieBreakers>
 </document>
