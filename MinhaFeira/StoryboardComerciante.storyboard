@@ -469,10 +469,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Inicial Feirante.png" translatesAutoresizingMaskIntoConstraints="NO" id="8M6-Sc-riW">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LM-2q-Hdn">
+                                <rect key="frame" x="491" y="523" width="123" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="Eyk-0O-dPL"/>
+                                    <constraint firstAttribute="width" secondItem="5LM-2q-Hdn" secondAttribute="height" multiplier="41:23" id="R71-La-lQx"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Tqu-gc-VbC" kind="presentation" modalTransitionStyle="crossDissolve" id="rTT-y8-s56"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="RSu-KN-7cJ" firstAttribute="top" secondItem="5LM-2q-Hdn" secondAttribute="bottom" constant="8" id="CFi-BX-tR7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8M6-Sc-riW" secondAttribute="trailing" constant="-16" id="GUi-ny-7Sr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5LM-2q-Hdn" secondAttribute="trailing" constant="-30" id="QN9-q9-t4k"/>
                             <constraint firstItem="8M6-Sc-riW" firstAttribute="top" secondItem="hXz-rB-5Ce" secondAttribute="bottom" constant="-20" id="Up0-X5-lgy"/>
                             <constraint firstItem="8M6-Sc-riW" firstAttribute="leading" secondItem="Mxt-4S-hTb" secondAttribute="leadingMargin" constant="-16" id="iJy-JP-mma"/>
                             <constraint firstItem="RSu-KN-7cJ" firstAttribute="top" secondItem="8M6-Sc-riW" secondAttribute="bottom" id="vbu-W2-A9Z"/>
@@ -483,10 +498,40 @@
             </objects>
             <point key="canvasLocation" x="567" y="934"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="W9X-tA-7pJ">
+            <objects>
+                <viewController id="Tqu-gc-VbC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qtQ-sw-aUI"/>
+                        <viewControllerLayoutGuide type="bottom" id="RkJ-0m-ejF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hj2-LX-ZYU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Feirante Venda.png" translatesAutoresizingMaskIntoConstraints="NO" id="ebZ-yf-FhH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ebZ-yf-FhH" secondAttribute="trailing" constant="-16" id="1DK-Xd-Bxo"/>
+                            <constraint firstItem="ebZ-yf-FhH" firstAttribute="top" secondItem="qtQ-sw-aUI" secondAttribute="bottom" constant="-20" id="cdY-lZ-H9L"/>
+                            <constraint firstItem="ebZ-yf-FhH" firstAttribute="leading" secondItem="Hj2-LX-ZYU" secondAttribute="leadingMargin" constant="-16" id="hIR-Ys-iiy"/>
+                            <constraint firstItem="RkJ-0m-ejF" firstAttribute="top" secondItem="ebZ-yf-FhH" secondAttribute="bottom" id="u9g-Dw-Gr6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G4O-32-ZFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1227" y="934"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo.png" width="638" height="300"/>
         <image name="Telas Boas Vindas - Feirante.png" width="750" height="1334"/>
+        <image name="Telas Feirante Venda.png" width="750" height="1334"/>
         <image name="Telas Inicial Feirante.png" width="750" height="1334"/>
         <image name="backgroundimage.png" width="1000" height="1000"/>
         <image name="botao.png" width="452" height="86"/>
