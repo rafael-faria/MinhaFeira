@@ -603,7 +603,7 @@
                                     <constraint firstAttribute="centerX" secondItem="7JQ-2t-Gx7" secondAttribute="centerX" id="uLI-vd-3rX"/>
                                 </constraints>
                             </view>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1y-kT-Axb">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1y-kT-Axb">
                                 <rect key="frame" x="38" y="82" width="526" height="420"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYn-OR-5wF">
@@ -612,6 +612,9 @@
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="OkJ-8D-wU0" kind="presentation" modalTransitionStyle="crossDissolve" id="wJD-Hn-vdL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTm-OV-O9L">
                                         <rect key="frame" x="0.0" y="84" width="526" height="84"/>
@@ -642,7 +645,7 @@
                                         </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="oYD-rw-W3h" secondAttribute="height" multiplier="5.5" id="4VB-3Q-Q31"/>
                                     <constraint firstItem="W24-iu-cJV" firstAttribute="width" secondItem="f1y-kT-Axb" secondAttribute="width" id="AMz-pI-Tpd"/>
@@ -782,10 +785,10 @@
             </objects>
             <point key="canvasLocation" x="1565" y="1678"/>
         </scene>
-        <!--Mapa-->
+        <!--Procurar Feirante-->
         <scene sceneID="opt-pV-DSJ">
             <objects>
-                <viewController title="Mapa" id="OkJ-8D-wU0" sceneMemberID="viewController">
+                <viewController title="Procurar Feirante" id="OkJ-8D-wU0" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dYf-kT-GeK"/>
                         <viewControllerLayoutGuide type="bottom" id="JdR-rB-gIb"/>
@@ -794,7 +797,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Inicial Cliente.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Aa-bT-sch">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Procurar Feirante.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Aa-bT-sch">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nlG-AI-mTt">
@@ -807,6 +810,9 @@
                                         <state key="normal" title="Configurar">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="yOX-zX-ZMu" kind="presentation" modalTransitionStyle="crossDissolve" id="v3t-ep-aur"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -826,6 +832,9 @@
                                         <state key="normal" title="Compras">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="gSe-uF-ibg" kind="presentation" modalTransitionStyle="crossDissolve" id="y8n-0Y-6kA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -856,7 +865,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ca-qn-uzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2387" y="184"/>
+            <point key="canvasLocation" x="2463" y="-458"/>
         </scene>
     </scenes>
     <resources>
@@ -864,6 +873,7 @@
         <image name="Telas Boas Vindas - Cliente.png" width="750" height="1334"/>
         <image name="Telas Cliente Compra.png" width="750" height="1334"/>
         <image name="Telas Inicial Cliente.png" width="750" height="1334"/>
+        <image name="Telas Procurar Feirante.png" width="750" height="1334"/>
         <image name="backgroundimage.png" width="1000" height="1000"/>
         <image name="botao.png" width="452" height="86"/>
         <image name="face.png" width="452" height="74"/>
@@ -873,7 +883,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="pPQ-Dy-Ugx"/>
-        <segue reference="MtY-Z6-duO"/>
-        <segue reference="BDF-zp-OXC"/>
+        <segue reference="y8n-0Y-6kA"/>
+        <segue reference="v3t-ep-aur"/>
     </inferredMetricsTieBreakers>
 </document>
