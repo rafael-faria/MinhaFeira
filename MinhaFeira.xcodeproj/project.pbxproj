@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2243CD1AAB858A00B523E7 /* Configurações Consumidor.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */; };
 		CF775A631AAB273000C53713 /* StoryboardUsuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */; };
 		CF775A691AAB29B700C53713 /* Telas Feirante Venda.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */; };
 		CF775A6A1AAB29B700C53713 /* Telas Inicial Cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Configurações Consumidor.png"; sourceTree = "<group>"; };
 		CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardUsuario.storyboard; sourceTree = "<group>"; };
 		CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirante Venda.png"; sourceTree = "<group>"; };
 		CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Inicial Cliente.png"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		E35D12AA1AA7C28A00A646F4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */,
 				E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */,
 				E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */,
 				E35D12AD1AA7C59300A646F4 /* backgroundimage.png */,
@@ -300,6 +303,7 @@
 				E35D12B21AA7CD0100A646F4 /* Logo.png in Resources */,
 				E3DF5FD71AAB6F1300B1B97E /* Tela Aberto.png in Resources */,
 				CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */,
+				CF2243CD1AAB858A00B523E7 /* Configurações Consumidor.png in Resources */,
 				CF775A711AAB411100C53713 /* Telas Cliente Compra.png in Resources */,
 				CF775A791AAB6C3C00C53713 /* Telas Feirantes Favoritos.png in Resources */,
 				CF775A731AAB655C00C53713 /* Telas Procurar Feirante.png in Resources */,
