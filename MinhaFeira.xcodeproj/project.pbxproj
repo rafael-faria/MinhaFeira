@@ -31,6 +31,8 @@
 		E35D12C21AA920E000A646F4 /* triangulo.png in Resources */ = {isa = PBXBuildFile; fileRef = E35D12C11AA920E000A646F4 /* triangulo.png */; };
 		E35D12C51AA9328F00A646F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35D12C31AA9328F00A646F4 /* Main.storyboard */; };
 		E3D4451D1AAA5AE900A8928D /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4451C1AAA5AE900A8928D /* pin.png */; };
+		E3DF5FD11AAB41E200B1B97E /* StoryboardComerciante.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */; };
+		E3DF5FD31AAB425900B1B97E /* Telas Boas Vindas - Feirante.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD21AAB425900B1B97E /* Telas Boas Vindas - Feirante.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		E35D12C11AA920E000A646F4 /* triangulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangulo.png; sourceTree = "<group>"; };
 		E35D12C41AA9328F00A646F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3D4451C1AAA5AE900A8928D /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardComerciante.storyboard; sourceTree = "<group>"; };
+		E3DF5FD21AAB425900B1B97E /* Telas Boas Vindas - Feirante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Boas Vindas - Feirante.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */,
+				E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */,
 				E35D12C31AA9328F00A646F4 /* Main.storyboard */,
 				E35D12AA1AA7C28A00A646F4 /* Image */,
 				E35D12861AA7BF8500A646F4 /* AppDelegate.h */,
@@ -164,6 +169,7 @@
 			children = (
 				CF775A6E1AAB375300C53713 /* Telas Cliente Compra.png */,
 				CF775A6C1AAB36F600C53713 /* Telas Boas Vindas - Cliente.png */,
+				E3DF5FD21AAB425900B1B97E /* Telas Boas Vindas - Feirante.png */,
 				CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */,
 				CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */,
 				CF775A671AAB29B700C53713 /* Telas Inicial Feirante.png */,
@@ -275,7 +281,9 @@
 				E35D12BC1AA904CF00A646F4 /* linha.png in Resources */,
 				E35D12931AA7BF8500A646F4 /* LaunchScreen.xib in Resources */,
 				E35D12AC1AA7C29C00A646F4 /* fundoentrar.png in Resources */,
+				E3DF5FD31AAB425900B1B97E /* Telas Boas Vindas - Feirante.png in Resources */,
 				CF775A6F1AAB375300C53713 /* Telas Cliente Compra.png in Resources */,
+				E3DF5FD11AAB41E200B1B97E /* StoryboardComerciante.storyboard in Resources */,
 				E35D12BE1AA91B9900A646F4 /* StoryboardGuilherme.storyboard in Resources */,
 				E35D12901AA7BF8500A646F4 /* Images.xcassets in Resources */,
 				E35D12AE1AA7C59300A646F4 /* backgroundimage.png in Resources */,
