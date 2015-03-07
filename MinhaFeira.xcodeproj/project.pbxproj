@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF775A631AAB273000C53713 /* StoryboardUsuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */; };
+		CF775A681AAB29B700C53713 /* Telas Boas Vindas.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A641AAB29B700C53713 /* Telas Boas Vindas.png */; };
+		CF775A691AAB29B700C53713 /* Telas Feirante Venda.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */; };
+		CF775A6A1AAB29B700C53713 /* Telas Inicial Cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */; };
+		CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A671AAB29B700C53713 /* Telas Inicial Feirante.png */; };
 		E35D12851AA7BF8500A646F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12841AA7BF8500A646F4 /* main.m */; };
 		E35D12881AA7BF8500A646F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12871AA7BF8500A646F4 /* AppDelegate.m */; };
 		E35D128B1AA7BF8500A646F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D128A1AA7BF8500A646F4 /* ViewController.m */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardUsuario.storyboard; sourceTree = "<group>"; };
+		CF775A641AAB29B700C53713 /* Telas Boas Vindas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Boas Vindas.png"; sourceTree = "<group>"; };
+		CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirante Venda.png"; sourceTree = "<group>"; };
+		CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Inicial Cliente.png"; sourceTree = "<group>"; };
+		CF775A671AAB29B700C53713 /* Telas Inicial Feirante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Inicial Feirante.png"; sourceTree = "<group>"; };
 		E35D127F1AA7BF8500A646F4 /* MinhaFeira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhaFeira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35D12831AA7BF8500A646F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35D12841AA7BF8500A646F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +115,7 @@
 		E35D12811AA7BF8500A646F4 /* MinhaFeira */ = {
 			isa = PBXGroup;
 			children = (
+				CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */,
 				E35D12C31AA9328F00A646F4 /* Main.storyboard */,
 				E35D12AA1AA7C28A00A646F4 /* Image */,
 				E35D12861AA7BF8500A646F4 /* AppDelegate.h */,
@@ -149,6 +160,10 @@
 		E35D12AA1AA7C28A00A646F4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CF775A641AAB29B700C53713 /* Telas Boas Vindas.png */,
+				CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */,
+				CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */,
+				CF775A671AAB29B700C53713 /* Telas Inicial Feirante.png */,
 				E3D4451C1AAA5AE900A8928D /* pin.png */,
 				E35D12C11AA920E000A646F4 /* triangulo.png */,
 				E35D12BB1AA904CF00A646F4 /* linha.png */,
@@ -247,18 +262,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35D12B21AA7CD0100A646F4 /* Logo.png in Resources */,
+				CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */,
 				E35D12C21AA920E000A646F4 /* triangulo.png in Resources */,
 				E35D12C01AA91BA400A646F4 /* StoryboardJoao.storyboard in Resources */,
 				E35D12C51AA9328F00A646F4 /* Main.storyboard in Resources */,
 				E35D12B81AA7D8E900A646F4 /* botao.png in Resources */,
+				CF775A691AAB29B700C53713 /* Telas Feirante Venda.png in Resources */,
 				E35D12BC1AA904CF00A646F4 /* linha.png in Resources */,
 				E35D12931AA7BF8500A646F4 /* LaunchScreen.xib in Resources */,
 				E35D12AC1AA7C29C00A646F4 /* fundoentrar.png in Resources */,
 				E35D12BE1AA91B9900A646F4 /* StoryboardGuilherme.storyboard in Resources */,
 				E35D12901AA7BF8500A646F4 /* Images.xcassets in Resources */,
 				E35D12AE1AA7C59300A646F4 /* backgroundimage.png in Resources */,
+				CF775A681AAB29B700C53713 /* Telas Boas Vindas.png in Resources */,
 				E35D12B41AA7D0C500A646F4 /* face.png in Resources */,
 				E3D4451D1AAA5AE900A8928D /* pin.png in Resources */,
+				CF775A6A1AAB29B700C53713 /* Telas Inicial Cliente.png in Resources */,
+				CF775A631AAB273000C53713 /* StoryboardUsuario.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +425,7 @@
 				INFOPLIST_FILE = MinhaFeira/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -415,6 +436,7 @@
 				INFOPLIST_FILE = MinhaFeira/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
