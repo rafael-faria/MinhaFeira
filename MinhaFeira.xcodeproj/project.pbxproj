@@ -13,6 +13,7 @@
 		CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A671AAB29B700C53713 /* Telas Inicial Feirante.png */; };
 		CF775A6D1AAB36F600C53713 /* Telas Boas Vindas - Cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A6C1AAB36F600C53713 /* Telas Boas Vindas - Cliente.png */; };
 		CF775A6F1AAB375300C53713 /* Telas Cliente Compra.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A6E1AAB375300C53713 /* Telas Cliente Compra.png */; };
+		CF775A711AAB411100C53713 /* Telas Cliente Compra.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A701AAB411100C53713 /* Telas Cliente Compra.png */; };
 		E35D12851AA7BF8500A646F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12841AA7BF8500A646F4 /* main.m */; };
 		E35D12881AA7BF8500A646F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12871AA7BF8500A646F4 /* AppDelegate.m */; };
 		E35D128B1AA7BF8500A646F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D128A1AA7BF8500A646F4 /* ViewController.m */; };
@@ -50,6 +51,7 @@
 		CF775A671AAB29B700C53713 /* Telas Inicial Feirante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Inicial Feirante.png"; sourceTree = "<group>"; };
 		CF775A6C1AAB36F600C53713 /* Telas Boas Vindas - Cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Boas Vindas - Cliente.png"; sourceTree = "<group>"; };
 		CF775A6E1AAB375300C53713 /* Telas Cliente Compra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Cliente Compra.png"; sourceTree = "<group>"; };
+		CF775A701AAB411100C53713 /* Telas Cliente Compra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Cliente Compra.png"; sourceTree = "<group>"; };
 		E35D127F1AA7BF8500A646F4 /* MinhaFeira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhaFeira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35D12831AA7BF8500A646F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35D12841AA7BF8500A646F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		E35D12AA1AA7C28A00A646F4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CF775A701AAB411100C53713 /* Telas Cliente Compra.png */,
 				CF775A6E1AAB375300C53713 /* Telas Cliente Compra.png */,
 				CF775A6C1AAB36F600C53713 /* Telas Boas Vindas - Cliente.png */,
 				CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */,
@@ -266,6 +269,7 @@
 			files = (
 				E35D12B21AA7CD0100A646F4 /* Logo.png in Resources */,
 				CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */,
+				CF775A711AAB411100C53713 /* Telas Cliente Compra.png in Resources */,
 				E35D12C21AA920E000A646F4 /* triangulo.png in Resources */,
 				E35D12C01AA91BA400A646F4 /* StoryboardJoao.storyboard in Resources */,
 				E35D12C51AA9328F00A646F4 /* Main.storyboard in Resources */,
