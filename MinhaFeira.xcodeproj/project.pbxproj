@@ -31,10 +31,9 @@
 		E35D12B41AA7D0C500A646F4 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = E35D12B31AA7D0C500A646F4 /* face.png */; };
 		E35D12B81AA7D8E900A646F4 /* botao.png in Resources */ = {isa = PBXBuildFile; fileRef = E35D12B71AA7D8E900A646F4 /* botao.png */; };
 		E35D12BC1AA904CF00A646F4 /* linha.png in Resources */ = {isa = PBXBuildFile; fileRef = E35D12BB1AA904CF00A646F4 /* linha.png */; };
-		E35D12BE1AA91B9900A646F4 /* StoryboardGuilherme.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35D12BD1AA91B9900A646F4 /* StoryboardGuilherme.storyboard */; };
-		E35D12C01AA91BA400A646F4 /* StoryboardJoao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35D12BF1AA91BA400A646F4 /* StoryboardJoao.storyboard */; };
 		E35D12C21AA920E000A646F4 /* triangulo.png in Resources */ = {isa = PBXBuildFile; fileRef = E35D12C11AA920E000A646F4 /* triangulo.png */; };
 		E35D12C51AA9328F00A646F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35D12C31AA9328F00A646F4 /* Main.storyboard */; };
+		E36B5C831AAB98BB00BE4B28 /* Configurações Consumidor.png in Resources */ = {isa = PBXBuildFile; fileRef = E36B5C821AAB98BB00BE4B28 /* Configurações Consumidor.png */; };
 		E3D4451D1AAA5AE900A8928D /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D4451C1AAA5AE900A8928D /* pin.png */; };
 		E3DF5FD11AAB41E200B1B97E /* StoryboardComerciante.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */; };
 		E3DF5FD31AAB425900B1B97E /* Telas Boas Vindas - Feirante.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD21AAB425900B1B97E /* Telas Boas Vindas - Feirante.png */; };
@@ -87,10 +86,9 @@
 		E35D12B31AA7D0C500A646F4 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
 		E35D12B71AA7D8E900A646F4 /* botao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botao.png; sourceTree = "<group>"; };
 		E35D12BB1AA904CF00A646F4 /* linha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linha.png; sourceTree = "<group>"; };
-		E35D12BD1AA91B9900A646F4 /* StoryboardGuilherme.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardGuilherme.storyboard; sourceTree = "<group>"; };
-		E35D12BF1AA91BA400A646F4 /* StoryboardJoao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardJoao.storyboard; sourceTree = "<group>"; };
 		E35D12C11AA920E000A646F4 /* triangulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangulo.png; sourceTree = "<group>"; };
 		E35D12C41AA9328F00A646F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E36B5C821AAB98BB00BE4B28 /* Configurações Consumidor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Configurações Consumidor.png"; sourceTree = "<group>"; };
 		E3D4451C1AAA5AE900A8928D /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
 		E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardComerciante.storyboard; sourceTree = "<group>"; };
 		E3DF5FD21AAB425900B1B97E /* Telas Boas Vindas - Feirante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Boas Vindas - Feirante.png"; sourceTree = "<group>"; };
@@ -154,8 +152,6 @@
 				E35D128F1AA7BF8500A646F4 /* Images.xcassets */,
 				E35D12911AA7BF8500A646F4 /* LaunchScreen.xib */,
 				E35D12821AA7BF8500A646F4 /* Supporting Files */,
-				E35D12BD1AA91B9900A646F4 /* StoryboardGuilherme.storyboard */,
-				E35D12BF1AA91BA400A646F4 /* StoryboardJoao.storyboard */,
 			);
 			path = MinhaFeira;
 			sourceTree = "<group>";
@@ -191,6 +187,7 @@
 			children = (
 				E3DF5FE01AAB8A7F00B1B97E /* Adicionar produto.png */,
 				E3DF5FDE1AAB851500B1B97E /* Configurações Feirante.png */,
+				E36B5C821AAB98BB00BE4B28 /* Configurações Consumidor.png */,
 				E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */,
 				E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */,
 				E35D12AD1AA7C59300A646F4 /* backgroundimage.png */,
@@ -311,7 +308,6 @@
 				CF775A731AAB655C00C53713 /* Telas Procurar Feirante.png in Resources */,
 				E35D12C21AA920E000A646F4 /* triangulo.png in Resources */,
 				CF775A751AAB68B600C53713 /* Telas Procurar Produto.png in Resources */,
-				E35D12C01AA91BA400A646F4 /* StoryboardJoao.storyboard in Resources */,
 				E35D12C51AA9328F00A646F4 /* Main.storyboard in Resources */,
 				E35D12B81AA7D8E900A646F4 /* botao.png in Resources */,
 				CF775A771AAB6AF200C53713 /* Telas Criar Lista.png in Resources */,
@@ -321,13 +317,13 @@
 				E35D12BC1AA904CF00A646F4 /* linha.png in Resources */,
 				E35D12931AA7BF8500A646F4 /* LaunchScreen.xib in Resources */,
 				E3DF5FD91AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png in Resources */,
+				E36B5C831AAB98BB00BE4B28 /* Configurações Consumidor.png in Resources */,
 				E35D12AC1AA7C29C00A646F4 /* fundoentrar.png in Resources */,
 				E3DF5FD31AAB425900B1B97E /* Telas Boas Vindas - Feirante.png in Resources */,
 				E3DF5FDB1AAB79C000B1B97E /* Tela Aberto.png in Resources */,
 				CF775A6F1AAB375300C53713 /* Telas Cliente Compra.png in Resources */,
 				E3DF5FD51AAB4B1100B1B97E /* Telas Criar Lista.png in Resources */,
 				E3DF5FD11AAB41E200B1B97E /* StoryboardComerciante.storyboard in Resources */,
-				E35D12BE1AA91B9900A646F4 /* StoryboardGuilherme.storyboard in Resources */,
 				E3DF5FE11AAB8A7F00B1B97E /* Adicionar produto.png in Resources */,
 				E35D12901AA7BF8500A646F4 /* Images.xcassets in Resources */,
 				E35D12AE1AA7C59300A646F4 /* backgroundimage.png in Resources */,
