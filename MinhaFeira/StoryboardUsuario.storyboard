@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIF-5K-GKz">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -41,7 +41,7 @@
                             <constraint firstItem="Emq-TF-99w" firstAttribute="leading" secondItem="bIn-Wh-1dI" secondAttribute="leadingMargin" constant="-16" id="hyH-Az-L5c"/>
                             <constraint firstItem="Emq-TF-99w" firstAttribute="top" secondItem="jaR-K2-7cr" secondAttribute="bottom" id="mzE-rF-x3K"/>
                             <constraint firstItem="yIF-5K-GKz" firstAttribute="leading" secondItem="bIn-Wh-1dI" secondAttribute="leadingMargin" constant="-16" id="rYD-F0-clb"/>
-                            <constraint firstItem="yIF-5K-GKz" firstAttribute="top" secondItem="jaR-K2-7cr" secondAttribute="bottom" id="u0p-0c-h2s"/>
+                            <constraint firstItem="yIF-5K-GKz" firstAttribute="top" secondItem="jaR-K2-7cr" secondAttribute="bottom" constant="-20" id="u0p-0c-h2s"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -62,7 +62,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Inicial Cliente.png" translatesAutoresizingMaskIntoConstraints="NO" id="OGM-yd-voY">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQb-eH-ARm">
                                 <rect key="frame" x="0.0" y="510" width="162" height="90"/>
@@ -114,7 +114,7 @@
                         <constraints>
                             <constraint firstItem="naA-HG-SsC" firstAttribute="width" secondItem="sOT-Di-XB6" secondAttribute="width" multiplier="0.27" id="0nu-nr-7Fs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OGM-yd-voY" secondAttribute="trailing" constant="-16" id="4mC-Mk-X4p"/>
-                            <constraint firstItem="OGM-yd-voY" firstAttribute="top" secondItem="S0R-6v-HvR" secondAttribute="bottom" id="BL9-tT-71W"/>
+                            <constraint firstItem="OGM-yd-voY" firstAttribute="top" secondItem="S0R-6v-HvR" secondAttribute="bottom" constant="-20" id="BL9-tT-71W"/>
                             <constraint firstItem="WQb-eH-ARm" firstAttribute="width" secondItem="sOT-Di-XB6" secondAttribute="width" multiplier="0.27" id="IWM-yi-rhT"/>
                             <constraint firstItem="g4W-hf-we1" firstAttribute="top" secondItem="OGM-yd-voY" secondAttribute="bottom" id="Ljs-ft-t9N"/>
                             <constraint firstItem="naA-HG-SsC" firstAttribute="height" secondItem="sOT-Di-XB6" secondAttribute="height" multiplier="0.15" id="Uc9-lu-B0n"/>

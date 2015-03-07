@@ -467,7 +467,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Inicial Feirante.png" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-ea-qHy">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxJ-s0-EFw">
                                 <rect key="frame" x="0.0" y="510" width="162" height="90"/>
@@ -515,7 +515,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Vyt-8a-IEx" firstAttribute="top" secondItem="eiD-Wb-5nJ" secondAttribute="bottom" id="1hC-Ey-XYK"/>
-                            <constraint firstItem="hoN-ea-qHy" firstAttribute="top" secondItem="Sew-0z-qiJ" secondAttribute="bottom" id="6vW-nq-de5"/>
+                            <constraint firstItem="hoN-ea-qHy" firstAttribute="top" secondItem="Sew-0z-qiJ" secondAttribute="bottom" constant="-20" id="6vW-nq-de5"/>
                             <constraint firstItem="uxJ-s0-EFw" firstAttribute="leading" secondItem="G6H-YU-Jvb" secondAttribute="leadingMargin" constant="-16" id="E4S-Rs-p3X"/>
                             <constraint firstItem="uxJ-s0-EFw" firstAttribute="height" secondItem="G6H-YU-Jvb" secondAttribute="height" multiplier="0.15" id="MBd-kx-dcU"/>
                             <constraint firstItem="Vyt-8a-IEx" firstAttribute="top" secondItem="hoN-ea-qHy" secondAttribute="bottom" id="PeG-lz-EXo"/>
@@ -546,7 +546,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Feirante Venda.png" translatesAutoresizingMaskIntoConstraints="NO" id="JOt-xu-ze3">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOc-aA-f9g">
                                 <rect key="frame" x="0.0" y="510" width="162" height="90"/>
@@ -594,7 +594,7 @@
                             <constraint firstItem="BZJ-bm-pWv" firstAttribute="top" secondItem="M2s-Lh-Djc" secondAttribute="bottom" id="DAF-3a-XFI"/>
                             <constraint firstItem="KOc-aA-f9g" firstAttribute="leading" secondItem="o2C-je-By0" secondAttribute="leadingMargin" constant="-16" id="FvZ-pN-ZQy"/>
                             <constraint firstItem="JOt-xu-ze3" firstAttribute="leading" secondItem="o2C-je-By0" secondAttribute="leadingMargin" constant="-16" id="H1T-gp-T9R"/>
-                            <constraint firstItem="JOt-xu-ze3" firstAttribute="top" secondItem="dXE-OA-FVB" secondAttribute="bottom" id="Hoi-LJ-do4"/>
+                            <constraint firstItem="JOt-xu-ze3" firstAttribute="top" secondItem="dXE-OA-FVB" secondAttribute="bottom" constant="-20" id="Hoi-LJ-do4"/>
                             <constraint firstItem="KOc-aA-f9g" firstAttribute="width" secondItem="o2C-je-By0" secondAttribute="width" multiplier="0.27" id="RA4-ni-xWz"/>
                             <constraint firstItem="M2s-Lh-Djc" firstAttribute="width" secondItem="o2C-je-By0" secondAttribute="width" multiplier="0.27" id="Rk6-g6-UTk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="M2s-Lh-Djc" secondAttribute="trailing" constant="-16" id="cgP-2t-HRp"/>
