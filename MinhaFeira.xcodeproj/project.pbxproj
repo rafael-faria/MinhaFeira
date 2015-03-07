@@ -463,6 +463,7 @@
 				E35D12A41AA7BF8500A646F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35D12A51AA7BF8500A646F4 /* Build configuration list for PBXNativeTarget "MinhaFeiraTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				E35D12A71AA7BF8500A646F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
