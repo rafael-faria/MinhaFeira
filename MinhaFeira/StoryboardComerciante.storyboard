@@ -72,7 +72,7 @@
                                     <constraint firstAttribute="height" constant="30" id="VNk-QR-EcI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXR-iR-q7v">
                                 <rect key="frame" x="496" y="345" width="78" height="30"/>
@@ -577,6 +577,9 @@
                                         <state key="normal" title="Carrinho">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="ewF-Tf-xcS" kind="presentation" modalTransitionStyle="crossDissolve" id="gvn-qz-kVD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -622,4 +625,7 @@
         <image name="linha.png" width="11" height="10"/>
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="gvn-qz-kVD"/>
+    </inferredMetricsTieBreakers>
 </document>
