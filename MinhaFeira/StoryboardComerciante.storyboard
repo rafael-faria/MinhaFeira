@@ -479,6 +479,9 @@
                                         <state key="normal" title="Configurar">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Fp5-G3-yrY" kind="presentation" modalTransitionStyle="crossDissolve" id="g2x-6p-vc7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -558,6 +561,9 @@
                                         <state key="normal" title="Configurar">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="5dy-jr-XUO" kind="presentation" modalTransitionStyle="crossDissolve" id="dRb-i0-3Tp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -652,6 +658,9 @@
                                         <state key="normal" title="Configurar">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="5dy-jr-XUO" kind="presentation" modalTransitionStyle="crossDissolve" id="Ebq-lo-F0C"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -750,6 +759,9 @@
                                         <state key="normal" title="Configurar">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="5dy-jr-XUO" kind="presentation" modalTransitionStyle="crossDissolve" id="srY-lK-Ygd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -806,8 +818,109 @@
             </objects>
             <point key="canvasLocation" x="2903" y="934"/>
         </scene>
+        <!--Mapa-->
+        <scene sceneID="rah-GF-iPc">
+            <objects>
+                <viewController title="Mapa" id="5dy-jr-XUO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M9i-3Z-YDD"/>
+                        <viewControllerLayoutGuide type="bottom" id="z25-gz-q2C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EY5-Mz-VhI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Configurações Feirante.png" translatesAutoresizingMaskIntoConstraints="NO" id="HOQ-L1-Nae">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7I-Z4-htf">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="98M-wt-WgG"/>
+                                    <constraint firstAttribute="height" constant="40" id="F4W-5D-OaG"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yX5-rz-xvU" kind="presentation" modalTransitionStyle="crossDissolve" id="Tlt-Ml-zPd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z25-gz-q2C" firstAttribute="top" secondItem="t7I-Z4-htf" secondAttribute="bottom" constant="5" id="3CE-eF-vRe"/>
+                            <constraint firstItem="t7I-Z4-htf" firstAttribute="centerX" secondItem="HOQ-L1-Nae" secondAttribute="centerX" id="8do-Ai-jz3"/>
+                            <constraint firstItem="z25-gz-q2C" firstAttribute="top" secondItem="HOQ-L1-Nae" secondAttribute="bottom" id="HsD-gw-pqh"/>
+                            <constraint firstItem="t7I-Z4-htf" firstAttribute="centerY" secondItem="HOQ-L1-Nae" secondAttribute="centerY" constant="300" id="I7m-l1-Kto"/>
+                            <constraint firstItem="HOQ-L1-Nae" firstAttribute="leading" secondItem="EY5-Mz-VhI" secondAttribute="leadingMargin" constant="-16" id="OzU-NA-fn4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HOQ-L1-Nae" secondAttribute="trailing" constant="-16" id="puJ-Xw-B6L"/>
+                            <constraint firstItem="HOQ-L1-Nae" firstAttribute="top" secondItem="M9i-3Z-YDD" secondAttribute="bottom" constant="-20" id="yjl-Vq-BLf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="I7m-l1-Kto"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYr-Gr-Nk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2215" y="154"/>
+        </scene>
+        <!--Mapa-->
+        <scene sceneID="8Eq-Zb-PGe">
+            <objects>
+                <viewController title="Mapa" id="Fp5-G3-yrY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OmG-IL-8qM"/>
+                        <viewControllerLayoutGuide type="bottom" id="V4C-Tc-eej"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wto-mQ-gqE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Configurações Feirante.png" translatesAutoresizingMaskIntoConstraints="NO" id="WHT-S1-Y9Z">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLn-GA-sYU">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="DdE-Dm-dAs"/>
+                                    <constraint firstAttribute="height" constant="40" id="L4b-6Z-Mi3"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ewF-Tf-xcS" kind="presentation" modalTransitionStyle="crossDissolve" id="KAg-Re-DSj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WHT-S1-Y9Z" firstAttribute="top" secondItem="OmG-IL-8qM" secondAttribute="bottom" constant="-20" id="3ef-hm-dEh"/>
+                            <constraint firstItem="sLn-GA-sYU" firstAttribute="centerY" secondItem="WHT-S1-Y9Z" secondAttribute="centerY" constant="300" id="KW1-Wy-vaU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WHT-S1-Y9Z" secondAttribute="trailing" constant="-16" id="Van-xy-1F4"/>
+                            <constraint firstItem="V4C-Tc-eej" firstAttribute="top" secondItem="sLn-GA-sYU" secondAttribute="bottom" constant="5" id="ZS6-gS-BkU"/>
+                            <constraint firstItem="WHT-S1-Y9Z" firstAttribute="leading" secondItem="Wto-mQ-gqE" secondAttribute="leadingMargin" constant="-16" id="frI-jp-UfS"/>
+                            <constraint firstItem="V4C-Tc-eej" firstAttribute="top" secondItem="WHT-S1-Y9Z" secondAttribute="bottom" id="hFy-66-cEY"/>
+                            <constraint firstItem="sLn-GA-sYU" firstAttribute="centerX" secondItem="WHT-S1-Y9Z" secondAttribute="centerX" id="n6r-LH-Lrm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KW1-Wy-vaU"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eg6-mv-6tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="132"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Configurações Feirante.png" width="750" height="1334"/>
         <image name="Logo.png" width="638" height="300"/>
         <image name="Tela Aberto.png" width="750" height="1334"/>
         <image name="Telas Boas Vindas - Feirante.png" width="750" height="1334"/>
@@ -822,7 +935,8 @@
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="O7p-sg-umg"/>
-        <segue reference="dI2-s4-p3d"/>
+        <segue reference="KAg-Re-DSj"/>
+        <segue reference="srY-lK-Ygd"/>
+        <segue reference="Tlt-Ml-zPd"/>
     </inferredMetricsTieBreakers>
 </document>

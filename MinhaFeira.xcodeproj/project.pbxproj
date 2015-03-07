@@ -42,6 +42,8 @@
 		E3DF5FD71AAB6F1300B1B97E /* Tela Aberto.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD61AAB6F1300B1B97E /* Tela Aberto.png */; };
 		E3DF5FD91AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */; };
 		E3DF5FDB1AAB79C000B1B97E /* Tela Aberto.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */; };
+		E3DF5FDD1AAB850E00B1B97E /* Configurações Consumidor.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FDC1AAB850E00B1B97E /* Configurações Consumidor.png */; };
+		E3DF5FDF1AAB851500B1B97E /* Configurações Feirante.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FDE1AAB851500B1B97E /* Configurações Feirante.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		E3DF5FD61AAB6F1300B1B97E /* Tela Aberto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tela Aberto.png"; sourceTree = "<group>"; };
 		E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirante Venda Fechar.png"; sourceTree = "<group>"; };
 		E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tela Aberto.png"; sourceTree = "<group>"; };
+		E3DF5FDC1AAB850E00B1B97E /* Configurações Consumidor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Configurações Consumidor.png"; sourceTree = "<group>"; };
+		E3DF5FDE1AAB851500B1B97E /* Configurações Feirante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Configurações Feirante.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 		E35D12AA1AA7C28A00A646F4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				E3DF5FDC1AAB850E00B1B97E /* Configurações Consumidor.png */,
+				E3DF5FDE1AAB851500B1B97E /* Configurações Feirante.png */,
 				E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */,
 				E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */,
 				E35D12AD1AA7C59300A646F4 /* backgroundimage.png */,
@@ -300,6 +306,7 @@
 				E35D12B21AA7CD0100A646F4 /* Logo.png in Resources */,
 				E3DF5FD71AAB6F1300B1B97E /* Tela Aberto.png in Resources */,
 				CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */,
+				E3DF5FDD1AAB850E00B1B97E /* Configurações Consumidor.png in Resources */,
 				CF775A711AAB411100C53713 /* Telas Cliente Compra.png in Resources */,
 				CF775A791AAB6C3C00C53713 /* Telas Feirantes Favoritos.png in Resources */,
 				CF775A731AAB655C00C53713 /* Telas Procurar Feirante.png in Resources */,
@@ -311,6 +318,7 @@
 				CF775A771AAB6AF200C53713 /* Telas Criar Lista.png in Resources */,
 				CF775A6D1AAB36F600C53713 /* Telas Boas Vindas - Cliente.png in Resources */,
 				CF775A691AAB29B700C53713 /* Telas Feirante Venda.png in Resources */,
+				E3DF5FDF1AAB851500B1B97E /* Configurações Feirante.png in Resources */,
 				E35D12BC1AA904CF00A646F4 /* linha.png in Resources */,
 				E35D12931AA7BF8500A646F4 /* LaunchScreen.xib in Resources */,
 				E3DF5FD91AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png in Resources */,
