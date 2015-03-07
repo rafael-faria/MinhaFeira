@@ -41,6 +41,7 @@
 		E3DF5FD51AAB4B1100B1B97E /* Telas Criar Lista.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD41AAB4B1100B1B97E /* Telas Criar Lista.png */; };
 		E3DF5FD71AAB6F1300B1B97E /* Tela Aberto.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD61AAB6F1300B1B97E /* Tela Aberto.png */; };
 		E3DF5FD91AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */; };
+		E3DF5FDB1AAB79C000B1B97E /* Tela Aberto.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		E3DF5FD41AAB4B1100B1B97E /* Telas Criar Lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Criar Lista.png"; sourceTree = "<group>"; };
 		E3DF5FD61AAB6F1300B1B97E /* Tela Aberto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tela Aberto.png"; sourceTree = "<group>"; };
 		E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirante Venda Fechar.png"; sourceTree = "<group>"; };
+		E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tela Aberto.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		E35D12AA1AA7C28A00A646F4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				E3DF5FDA1AAB79C000B1B97E /* Tela Aberto.png */,
 				E3DF5FD81AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png */,
 				E35D12AD1AA7C59300A646F4 /* backgroundimage.png */,
 				E35D12B71AA7D8E900A646F4 /* botao.png */,
@@ -313,6 +316,7 @@
 				E3DF5FD91AAB6FCB00B1B97E /* Telas Feirante Venda Fechar.png in Resources */,
 				E35D12AC1AA7C29C00A646F4 /* fundoentrar.png in Resources */,
 				E3DF5FD31AAB425900B1B97E /* Telas Boas Vindas - Feirante.png in Resources */,
+				E3DF5FDB1AAB79C000B1B97E /* Tela Aberto.png in Resources */,
 				CF775A6F1AAB375300C53713 /* Telas Cliente Compra.png in Resources */,
 				E3DF5FD51AAB4B1100B1B97E /* Telas Criar Lista.png in Resources */,
 				E3DF5FD11AAB41E200B1B97E /* StoryboardComerciante.storyboard in Resources */,
