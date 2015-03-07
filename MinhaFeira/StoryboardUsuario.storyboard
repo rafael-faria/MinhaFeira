@@ -724,43 +724,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Cliente Compra.png" translatesAutoresizingMaskIntoConstraints="NO" id="v3A-th-FMC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Configurações Consumidor.png" translatesAutoresizingMaskIntoConstraints="NO" id="v3A-th-FMC">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6n-6I-M6Q">
-                                <rect key="frame" x="0.0" y="510" width="162" height="90"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTA-3E-ACh">
-                                        <rect key="frame" x="27" y="15" width="108" height="60"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="Voltar">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="RR2-1v-nP0" kind="presentation" modalTransitionStyle="crossDissolve" id="QG9-Jl-IKF"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" secondItem="JTA-3E-ACh" secondAttribute="height" multiplier="1.5" id="1i5-4H-NeR"/>
-                                    <constraint firstAttribute="width" secondItem="JTA-3E-ACh" secondAttribute="width" multiplier="1.5" id="aT9-yB-Mfp"/>
-                                    <constraint firstAttribute="centerY" secondItem="JTA-3E-ACh" secondAttribute="centerY" id="tiv-8m-yJa"/>
-                                    <constraint firstAttribute="centerX" secondItem="JTA-3E-ACh" secondAttribute="centerX" id="ycT-Ft-9We"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2D-yV-TP8">
                                 <rect key="frame" x="438" y="510" width="162" height="90"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kG-mq-KQV">
                                         <rect key="frame" x="27" y="15" width="108" height="60"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="Compras">
+                                        <state key="normal" title="Voltar">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="gSe-uF-ibg" kind="presentation" modalTransitionStyle="crossDissolve" id="nEG-yJ-okB"/>
+                                            <segue destination="RR2-1v-nP0" kind="presentation" modalTransitionStyle="crossDissolve" id="jUu-lp-4Qt"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -780,10 +757,6 @@
                             <constraint firstItem="v3A-th-FMC" firstAttribute="leading" secondItem="3xF-lh-UjY" secondAttribute="leadingMargin" constant="-16" id="BXC-xt-qYS"/>
                             <constraint firstItem="S2D-yV-TP8" firstAttribute="width" secondItem="3xF-lh-UjY" secondAttribute="width" multiplier="0.27" id="Hn0-EG-efU"/>
                             <constraint firstItem="S2D-yV-TP8" firstAttribute="height" secondItem="3xF-lh-UjY" secondAttribute="height" multiplier="0.15" id="Sea-2f-gdv"/>
-                            <constraint firstItem="k6n-6I-M6Q" firstAttribute="width" secondItem="3xF-lh-UjY" secondAttribute="width" multiplier="0.27" id="Ymn-QD-owA"/>
-                            <constraint firstItem="k6n-6I-M6Q" firstAttribute="leading" secondItem="3xF-lh-UjY" secondAttribute="leadingMargin" constant="-16" id="bph-eD-RBK"/>
-                            <constraint firstItem="cy3-kS-sKP" firstAttribute="top" secondItem="k6n-6I-M6Q" secondAttribute="bottom" id="e3D-o0-yKW"/>
-                            <constraint firstItem="k6n-6I-M6Q" firstAttribute="height" secondItem="3xF-lh-UjY" secondAttribute="height" multiplier="0.15" id="l1K-4E-I3W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="v3A-th-FMC" secondAttribute="trailing" constant="-16" id="ljV-oK-c0Y"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S2D-yV-TP8" secondAttribute="trailing" constant="-16" id="oNW-Yo-Wx5"/>
                             <constraint firstItem="cy3-kS-sKP" firstAttribute="top" secondItem="S2D-yV-TP8" secondAttribute="bottom" id="xky-Qp-Vje"/>
@@ -1124,6 +1097,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Configurações Consumidor.png" width="750" height="1334"/>
         <image name="Logo.png" width="638" height="300"/>
         <image name="Telas Boas Vindas - Cliente.png" width="750" height="1334"/>
         <image name="Telas Cliente Compra.png" width="750" height="1334"/>
@@ -1140,8 +1114,8 @@
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="To8-3h-YCb"/>
+        <segue reference="y8n-0Y-6kA"/>
         <segue reference="nsl-w8-dE7"/>
-        <segue reference="pPQ-Dy-Ugx"/>
+        <segue reference="jUu-lp-4Qt"/>
     </inferredMetricsTieBreakers>
 </document>
