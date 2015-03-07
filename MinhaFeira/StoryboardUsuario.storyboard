@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Boas Vindas - Cliente.png" translatesAutoresizingMaskIntoConstraints="NO" id="Emq-TF-99w">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIF-5K-GKz">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -39,7 +39,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Emq-TF-99w" secondAttribute="trailing" constant="-16" id="XLs-Gl-9hH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yIF-5K-GKz" secondAttribute="trailing" constant="-16" id="asb-xq-b0V"/>
                             <constraint firstItem="Emq-TF-99w" firstAttribute="leading" secondItem="bIn-Wh-1dI" secondAttribute="leadingMargin" constant="-16" id="hyH-Az-L5c"/>
-                            <constraint firstItem="Emq-TF-99w" firstAttribute="top" secondItem="jaR-K2-7cr" secondAttribute="bottom" id="mzE-rF-x3K"/>
+                            <constraint firstItem="Emq-TF-99w" firstAttribute="top" secondItem="jaR-K2-7cr" secondAttribute="bottom" constant="-20" id="mzE-rF-x3K"/>
                             <constraint firstItem="yIF-5K-GKz" firstAttribute="leading" secondItem="bIn-Wh-1dI" secondAttribute="leadingMargin" constant="-16" id="rYD-F0-clb"/>
                             <constraint firstItem="yIF-5K-GKz" firstAttribute="top" secondItem="jaR-K2-7cr" secondAttribute="bottom" constant="-20" id="u0p-0c-h2s"/>
                         </constraints>
@@ -556,7 +556,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Cliente Compra.png" translatesAutoresizingMaskIntoConstraints="NO" id="Js1-Iy-Jbg">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAL-vj-vGd">
                                 <rect key="frame" x="0.0" y="510" width="162" height="90"/>
@@ -612,7 +612,7 @@
                             <constraint firstItem="cdc-6b-ILc" firstAttribute="width" secondItem="CGq-b8-1T5" secondAttribute="width" multiplier="0.27" id="6Ea-CL-Kzk"/>
                             <constraint firstItem="Js1-Iy-Jbg" firstAttribute="leading" secondItem="CGq-b8-1T5" secondAttribute="leadingMargin" constant="-16" id="B1Y-dJ-fCX"/>
                             <constraint firstItem="IrD-Et-5kR" firstAttribute="top" secondItem="aAL-vj-vGd" secondAttribute="bottom" id="Ft1-dW-Tlh"/>
-                            <constraint firstItem="Js1-Iy-Jbg" firstAttribute="top" secondItem="phE-GT-HSM" secondAttribute="bottom" id="SGD-XG-eqC"/>
+                            <constraint firstItem="Js1-Iy-Jbg" firstAttribute="top" secondItem="phE-GT-HSM" secondAttribute="bottom" constant="-20" id="SGD-XG-eqC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Js1-Iy-Jbg" secondAttribute="trailing" constant="-16" id="fY9-1L-Jyi"/>
                             <constraint firstItem="aAL-vj-vGd" firstAttribute="width" secondItem="CGq-b8-1T5" secondAttribute="width" multiplier="0.27" id="ifd-pr-pq6"/>
                             <constraint firstItem="aAL-vj-vGd" firstAttribute="height" secondItem="CGq-b8-1T5" secondAttribute="height" multiplier="0.15" id="izo-kD-XiQ"/>
@@ -638,7 +638,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Telas Cliente Compra.png" translatesAutoresizingMaskIntoConstraints="NO" id="v3A-th-FMC">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6n-6I-M6Q">
                                 <rect key="frame" x="0.0" y="510" width="162" height="90"/>
@@ -689,7 +689,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cy3-kS-sKP" firstAttribute="top" secondItem="v3A-th-FMC" secondAttribute="bottom" id="20d-pt-tXf"/>
-                            <constraint firstItem="v3A-th-FMC" firstAttribute="top" secondItem="ufl-IT-2hB" secondAttribute="bottom" id="5RZ-v6-OgT"/>
+                            <constraint firstItem="v3A-th-FMC" firstAttribute="top" secondItem="ufl-IT-2hB" secondAttribute="bottom" constant="-20" id="5RZ-v6-OgT"/>
                             <constraint firstItem="v3A-th-FMC" firstAttribute="leading" secondItem="3xF-lh-UjY" secondAttribute="leadingMargin" constant="-16" id="BXC-xt-qYS"/>
                             <constraint firstItem="S2D-yV-TP8" firstAttribute="width" secondItem="3xF-lh-UjY" secondAttribute="width" multiplier="0.27" id="Hn0-EG-efU"/>
                             <constraint firstItem="S2D-yV-TP8" firstAttribute="height" secondItem="3xF-lh-UjY" secondAttribute="height" multiplier="0.15" id="Sea-2f-gdv"/>
@@ -721,8 +721,8 @@
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QG9-Jl-IKF"/>
-        <segue reference="BDF-zp-OXC"/>
+        <segue reference="gev-FM-0DH"/>
         <segue reference="nEG-yJ-okB"/>
+        <segue reference="BDF-zp-OXC"/>
     </inferredMetricsTieBreakers>
 </document>
