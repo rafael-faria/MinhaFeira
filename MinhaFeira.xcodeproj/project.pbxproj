@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2243C41AAB739200B523E7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2243C31AAB739200B523E7 /* MediaPlayer.framework */; };
 		CF2243CD1AAB858A00B523E7 /* Configurações Consumidor.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */; };
 		CF775A631AAB273000C53713 /* StoryboardUsuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */; };
 		CF775A691AAB29B700C53713 /* Telas Feirante Venda.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */; };
@@ -19,6 +20,8 @@
 		CF775A751AAB68B600C53713 /* Telas Procurar Produto.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A741AAB68B600C53713 /* Telas Procurar Produto.png */; };
 		CF775A771AAB6AF200C53713 /* Telas Criar Lista.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A761AAB6AF200C53713 /* Telas Criar Lista.png */; };
 		CF775A791AAB6C3C00C53713 /* Telas Feirantes Favoritos.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A781AAB6C3C00C53713 /* Telas Feirantes Favoritos.png */; };
+		CFB01C8C1AACC2EE003AFE69 /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB01C8B1AACC2EE003AFE69 /* VideoController.m */; };
+		CFB01C8D1AACC94D003AFE69 /* encontre.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF3B0FBD1AAB89260076431E /* encontre.mp4 */; };
 		E35D12851AA7BF8500A646F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12841AA7BF8500A646F4 /* main.m */; };
 		E35D12881AA7BF8500A646F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D12871AA7BF8500A646F4 /* AppDelegate.m */; };
 		E35D128B1AA7BF8500A646F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35D128A1AA7BF8500A646F4 /* ViewController.m */; };
@@ -56,7 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF2243C31AAB739200B523E7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CF2243C91AAB7EE000B523E7 /* MinhaFeira-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinhaFeira-Bridging-Header.h"; sourceTree = "<group>"; };
 		CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Configurações Consumidor.png"; sourceTree = "<group>"; };
+		CF3B0FBD1AAB89260076431E /* encontre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = encontre.mp4; sourceTree = "<group>"; };
 		CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardUsuario.storyboard; sourceTree = "<group>"; };
 		CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirante Venda.png"; sourceTree = "<group>"; };
 		CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Inicial Cliente.png"; sourceTree = "<group>"; };
@@ -68,6 +74,8 @@
 		CF775A741AAB68B600C53713 /* Telas Procurar Produto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Procurar Produto.png"; sourceTree = "<group>"; };
 		CF775A761AAB6AF200C53713 /* Telas Criar Lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Criar Lista.png"; sourceTree = "<group>"; };
 		CF775A781AAB6C3C00C53713 /* Telas Feirantes Favoritos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirantes Favoritos.png"; sourceTree = "<group>"; };
+		CFB01C8A1AACC2EE003AFE69 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		CFB01C8B1AACC2EE003AFE69 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
 		E35D127F1AA7BF8500A646F4 /* MinhaFeira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhaFeira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35D12831AA7BF8500A646F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35D12841AA7BF8500A646F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2243C41AAB739200B523E7 /* MediaPlayer.framework in Frameworks */,
 				E35D12A91AA7C04600A646F4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +131,9 @@
 		E35D12761AA7BF8500A646F4 = {
 			isa = PBXGroup;
 			children = (
+				CFB01C8A1AACC2EE003AFE69 /* VideoController.h */,
+				CFB01C8B1AACC2EE003AFE69 /* VideoController.m */,
+				CF2243C31AAB739200B523E7 /* MediaPlayer.framework */,
 				E35D12A81AA7C04600A646F4 /* MapKit.framework */,
 				E35D12811AA7BF8500A646F4 /* MinhaFeira */,
 				E35D129B1AA7BF8500A646F4 /* MinhaFeiraTests */,
@@ -141,6 +153,7 @@
 		E35D12811AA7BF8500A646F4 /* MinhaFeira */ = {
 			isa = PBXGroup;
 			children = (
+				CF3B0FBD1AAB89260076431E /* encontre.mp4 */,
 				CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */,
 				E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */,
 				E35D12C31AA9328F00A646F4 /* Main.storyboard */,
@@ -300,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB01C8D1AACC94D003AFE69 /* encontre.mp4 in Resources */,
 				E35D12B21AA7CD0100A646F4 /* Logo.png in Resources */,
 				E3DF5FD71AAB6F1300B1B97E /* Tela Aberto.png in Resources */,
 				CF775A6B1AAB29B700C53713 /* Telas Inicial Feirante.png in Resources */,
@@ -348,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB01C8C1AACC2EE003AFE69 /* VideoController.m in Sources */,
 				E35D128B1AA7BF8500A646F4 /* ViewController.m in Sources */,
 				E35D12881AA7BF8500A646F4 /* AppDelegate.m in Sources */,
 				E35D12851AA7BF8500A646F4 /* main.m in Sources */,
@@ -474,10 +489,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MinhaFeira/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MinhaFeira-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -486,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MinhaFeira/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
