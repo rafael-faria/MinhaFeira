@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CF2243C41AAB739200B523E7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2243C31AAB739200B523E7 /* MediaPlayer.framework */; };
-		CF2243CD1AAB858A00B523E7 /* Configurações Consumidor.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */; };
 		CF775A631AAB273000C53713 /* StoryboardUsuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */; };
 		CF775A691AAB29B700C53713 /* Telas Feirante Venda.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */; };
 		CF775A6A1AAB29B700C53713 /* Telas Inicial Cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = CF775A661AAB29B700C53713 /* Telas Inicial Cliente.png */; };
@@ -61,8 +60,6 @@
 
 /* Begin PBXFileReference section */
 		CF2243C31AAB739200B523E7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		CF2243C91AAB7EE000B523E7 /* MinhaFeira-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinhaFeira-Bridging-Header.h"; sourceTree = "<group>"; };
-		CF2243CC1AAB858A00B523E7 /* Configurações Consumidor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Configurações Consumidor.png"; sourceTree = "<group>"; };
 		CF3B0FBD1AAB89260076431E /* encontre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = encontre.mp4; sourceTree = "<group>"; };
 		CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardUsuario.storyboard; sourceTree = "<group>"; };
 		CF775A651AAB29B700C53713 /* Telas Feirante Venda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirante Venda.png"; sourceTree = "<group>"; };
@@ -75,8 +72,8 @@
 		CF775A741AAB68B600C53713 /* Telas Procurar Produto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Procurar Produto.png"; sourceTree = "<group>"; };
 		CF775A761AAB6AF200C53713 /* Telas Criar Lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Criar Lista.png"; sourceTree = "<group>"; };
 		CF775A781AAB6C3C00C53713 /* Telas Feirantes Favoritos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Telas Feirantes Favoritos.png"; sourceTree = "<group>"; };
-		CFB01C8A1AACC2EE003AFE69 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
-		CFB01C8B1AACC2EE003AFE69 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		CFB01C8A1AACC2EE003AFE69 /* VideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoController.h; path = ../VideoController.h; sourceTree = "<group>"; };
+		CFB01C8B1AACC2EE003AFE69 /* VideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoController.m; path = ../VideoController.m; sourceTree = "<group>"; };
 		E35D127F1AA7BF8500A646F4 /* MinhaFeira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhaFeira.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35D12831AA7BF8500A646F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35D12841AA7BF8500A646F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -133,8 +130,6 @@
 		E35D12761AA7BF8500A646F4 = {
 			isa = PBXGroup;
 			children = (
-				CFB01C8A1AACC2EE003AFE69 /* VideoController.h */,
-				CFB01C8B1AACC2EE003AFE69 /* VideoController.m */,
 				CF2243C31AAB739200B523E7 /* MediaPlayer.framework */,
 				E35D12A81AA7C04600A646F4 /* MapKit.framework */,
 				E35D12811AA7BF8500A646F4 /* MinhaFeira */,
@@ -155,15 +150,17 @@
 		E35D12811AA7BF8500A646F4 /* MinhaFeira */ = {
 			isa = PBXGroup;
 			children = (
-				CF3B0FBD1AAB89260076431E /* encontre.mp4 */,
 				CF775A621AAB273000C53713 /* StoryboardUsuario.storyboard */,
 				E3DF5FD01AAB41E200B1B97E /* StoryboardComerciante.storyboard */,
 				E35D12C31AA9328F00A646F4 /* Main.storyboard */,
+				CF3B0FBD1AAB89260076431E /* encontre.mp4 */,
 				E35D12AA1AA7C28A00A646F4 /* Image */,
 				E35D12861AA7BF8500A646F4 /* AppDelegate.h */,
 				E35D12871AA7BF8500A646F4 /* AppDelegate.m */,
 				E35D12891AA7BF8500A646F4 /* ViewController.h */,
 				E35D128A1AA7BF8500A646F4 /* ViewController.m */,
+				CFB01C8A1AACC2EE003AFE69 /* VideoController.h */,
+				CFB01C8B1AACC2EE003AFE69 /* VideoController.m */,
 				E35D128F1AA7BF8500A646F4 /* Images.xcassets */,
 				E35D12911AA7BF8500A646F4 /* LaunchScreen.xib */,
 				E35D12821AA7BF8500A646F4 /* Supporting Files */,
