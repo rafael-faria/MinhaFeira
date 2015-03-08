@@ -7,10 +7,10 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Entrar-->
         <scene sceneID="zsp-mr-4QD">
             <objects>
-                <viewController id="RXe-jQ-Uq0" sceneMemberID="viewController">
+                <viewController title="Entrar" id="RXe-jQ-Uq0" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gzd-dr-c3r"/>
                         <viewControllerLayoutGuide type="bottom" id="AKH-XQ-yUN"/>
@@ -172,7 +172,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TJO-9U-V0G" kind="presentation" id="SHM-nu-zuf"/>
+                                    <segue destination="TJO-9U-V0G" kind="presentation" modalTransitionStyle="crossDissolve" animates="NO" id="SHM-nu-zuf"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="71b-hz-9RB">
@@ -1001,10 +1001,10 @@
             </objects>
             <point key="canvasLocation" x="2209" y="1662"/>
         </scene>
-        <!--View Controller-->
+        <!--Cadastrar-->
         <scene sceneID="YNz-Lk-Nfw">
             <objects>
-                <viewController id="TJO-9U-V0G" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Cadastrar" id="TJO-9U-V0G" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bc2-sR-V9V"/>
                         <viewControllerLayoutGuide type="bottom" id="f2k-1Z-Ux0"/>
@@ -1074,7 +1074,7 @@
                                 <color key="textColor" red="0.95776120580000002" green="0.95776120580000002" blue="0.95776120580000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="OU" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVf-zj-m1l">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OU" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVf-zj-m1l">
                                 <rect key="frame" x="288" y="491" width="26" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="26" id="et9-qg-9iw"/>
@@ -1087,7 +1087,7 @@
                                     <rect key="frame" x="288" y="410" width="24" height="20"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="WpH-hr-vSr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="WpH-hr-vSr">
                                 <rect key="frame" x="185" y="500" width="98" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="Cpk-3M-Afv"/>
@@ -1096,7 +1096,7 @@
                                     <rect key="frame" x="185" y="418" width="98" height="2"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rA0-U0-GZW">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rA0-U0-GZW">
                                 <rect key="frame" x="200" y="515" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="DNv-Ii-jIf"/>
@@ -1115,7 +1115,7 @@
                                     </mask>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="bA4-jM-k8b">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="bA4-jM-k8b">
                                 <rect key="frame" x="317" y="500" width="98" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="Mru-hN-ged"/>
@@ -1131,7 +1131,7 @@
                                     <constraint firstAttribute="width" constant="24" id="YEM-nk-KUZ"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epV-VR-2Ao">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epV-VR-2Ao">
                                 <rect key="frame" x="135" y="375" width="330" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="8Kh-NB-ywb"/>
@@ -1154,7 +1154,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="KIo-FQ-b0I" kind="presentation" id="Qw3-G3-fK8"/>
+                                    <segue destination="KIo-FQ-b0I" kind="presentation" modalTransitionStyle="crossDissolve" id="Qw3-G3-fK8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ENTRAR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60T-OK-hnr">
@@ -1177,7 +1177,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Entra:" destination="TJO-9U-V0G" eventType="touchUpInside" id="UXq-0h-zGL"/>
-                                    <segue destination="RXe-jQ-Uq0" kind="presentation" id="DiP-UL-NDK"/>
+                                    <segue destination="RXe-jQ-Uq0" kind="presentation" modalTransitionStyle="crossDissolve" animates="NO" id="DiP-UL-NDK"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linha.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bki-qU-3Mh">
@@ -1249,6 +1249,7 @@
                             <constraint firstItem="If4-mh-5eZ" firstAttribute="top" secondItem="Bc2-sR-V9V" secondAttribute="bottom" constant="-20" id="6CY-tN-Pp7"/>
                             <constraint firstItem="rhA-2R-Els" firstAttribute="top" secondItem="If4-mh-5eZ" secondAttribute="bottom" constant="20" id="6UW-t4-afp"/>
                             <constraint firstItem="If4-mh-5eZ" firstAttribute="height" secondItem="swG-de-dUG" secondAttribute="height" multiplier="0.4" id="6Yg-r2-aav"/>
+                            <constraint firstItem="epV-VR-2Ao" firstAttribute="top" secondItem="iQA-CP-JCA" secondAttribute="bottom" constant="40" id="6a5-zw-oTw"/>
                             <constraint firstItem="kVf-zj-m1l" firstAttribute="leading" secondItem="WpH-hr-vSr" secondAttribute="trailing" constant="5" id="6fx-U3-hPp"/>
                             <constraint firstAttribute="centerX" secondItem="60T-OK-hnr" secondAttribute="centerX" constant="10" id="7eT-Nj-jFN"/>
                             <constraint firstItem="swG-de-dUG" firstAttribute="width" secondItem="rA0-U0-GZW" secondAttribute="width" multiplier="1.2" id="94b-tE-DuA"/>
@@ -1322,19 +1323,19 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="2bF-a8-RoJ"/>
-                                <exclude reference="iMR-sZ-D1i"/>
-                                <exclude reference="IdI-VY-U8z"/>
-                                <exclude reference="AlL-Sg-QMv"/>
-                                <exclude reference="pia-TK-0dd"/>
-                                <exclude reference="1zm-Gi-rRR"/>
-                                <exclude reference="wtQ-Mt-76e"/>
-                                <exclude reference="94b-tE-DuA"/>
                                 <exclude reference="6Yg-r2-aav"/>
+                                <exclude reference="1zm-Gi-rRR"/>
+                                <exclude reference="94b-tE-DuA"/>
+                                <exclude reference="AlL-Sg-QMv"/>
+                                <exclude reference="IdI-VY-U8z"/>
+                                <exclude reference="iMR-sZ-D1i"/>
+                                <exclude reference="pia-TK-0dd"/>
+                                <exclude reference="wtQ-Mt-76e"/>
                                 <exclude reference="CAq-gj-zRC"/>
-                                <exclude reference="j2w-6T-ets"/>
+                                <exclude reference="Bdj-Nm-GEc"/>
                                 <exclude reference="IKc-wp-hX7"/>
                                 <exclude reference="XMW-lA-oDq"/>
-                                <exclude reference="Bdj-Nm-GEc"/>
+                                <exclude reference="j2w-6T-ets"/>
                                 <exclude reference="S4Y-tM-HqZ"/>
                                 <exclude reference="LBl-ag-tIg"/>
                                 <exclude reference="W2R-CP-3J4"/>
@@ -1342,9 +1343,9 @@
                                 <exclude reference="2KA-iZ-jhi"/>
                                 <exclude reference="3vW-Zd-qd7"/>
                                 <exclude reference="xEo-Gj-yKk"/>
-                                <exclude reference="g0c-BT-lhc"/>
                                 <exclude reference="7eT-Nj-jFN"/>
                                 <exclude reference="NUq-gV-fxf"/>
+                                <exclude reference="g0c-BT-lhc"/>
                                 <exclude reference="CgX-CD-Vcb"/>
                                 <exclude reference="xgD-Cl-hFB"/>
                                 <exclude reference="mT0-og-8Dm"/>
@@ -1365,8 +1366,8 @@
                             <mask key="constraints">
                                 <include reference="2bF-a8-RoJ"/>
                                 <include reference="2KA-iZ-jhi"/>
-                                <exclude reference="hVn-4q-uk5"/>
                                 <exclude reference="R8V-n4-iPN"/>
+                                <exclude reference="hVn-4q-uk5"/>
                                 <include reference="xEo-Gj-yKk"/>
                             </mask>
                         </variation>
@@ -1394,10 +1395,10 @@
         <image name="triangulo.png" width="112" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Zu6-E0-Do8"/>
-        <segue reference="goe-I3-j49"/>
-        <segue reference="dI2-s4-p3d"/>
-        <segue reference="srY-lK-Ygd"/>
         <segue reference="Qw3-G3-fK8"/>
+        <segue reference="EuT-DG-CYh"/>
+        <segue reference="goe-I3-j49"/>
+        <segue reference="Zu6-E0-Do8"/>
+        <segue reference="srY-lK-Ygd"/>
     </inferredMetricsTieBreakers>
 </document>
